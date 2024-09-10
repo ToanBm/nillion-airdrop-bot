@@ -1,6 +1,5 @@
 # Nillion Airdrop Bot
-Nillion Airdrop Bot is a tool for sending Nillion ($NIL) tokens to multiple recipients on the Nillion testnet. This bot is useful for distributing tokens in an airdrop scenario or for testing purposes.
-## Usage
+
 ### 1. Clone the repository:
    ```bash
    git clone https://github.com/ToanBm/nillion-airdrop-bot.git
@@ -11,7 +10,7 @@ Nillion Airdrop Bot is a tool for sending Nillion ($NIL) tokens to multiple reci
    npm install
    ```
 ### 3. Prepare `accounts.json`
-Edit file `accounts.json` as in the code below. (Ctrl + X, Y and Enter will do to save)
+Edit file `accounts.json` with your wallet seed key. (Ctrl + X, Y and Enter will do to save)
    ```bash
    nano accounts.json
    ```
