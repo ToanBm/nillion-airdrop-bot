@@ -1,5 +1,5 @@
 # Nillion Airdrop Bot
-
+- [Faucet](https://faucet.testnet.nillion.com/)
 ### 1. Clone the repository:
    ```bash
    git clone https://github.com/ToanBm/nillion-airdrop-bot.git
