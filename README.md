@@ -2,8 +2,7 @@
 - [Faucet](https://faucet.testnet.nillion.com/)
 ### 1. Clone the repository:
    ```bash
-   git clone https://github.com/ToanBm/nillion-airdrop-bot.git
-   cd nillion-airdrop-bot
+   git clone https://github.com/ToanBm/nillion-airdrop-bot.git && cd nillion-airdrop-bot
    ```
 ### 2. Install dependencies:
    ```bash
@@ -15,22 +14,22 @@
    nano accounts.json
    ```
 Example:
-```json
-[
-  "abc def ghi jkl mno pqr stu vwx yz"
-]
-```
+   ```json
+   [
+     "abc def ghi jkl mno pqr stu vwx yz"
+   ]
+   ```
 
 - Edit file `privateKeys.json` with your wallet seed key. (Ctrl + X, Y and Enter will do to save)
    ```bash
    nano privateKeys.json
    ```
 Example:
-```json
-[
-  "abfrsgrgdgfdgfgfgfsgfgfsgfgdsgsz"
-]
-```
+   ```json
+   [
+     "abfrsgrgdgfdgfgfgfsgfgfsgfgdsgsz"
+   ]
+   ```
 ### 4. Run the bot:
    ```bash
    npm start
