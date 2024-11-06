@@ -10,10 +10,27 @@
    npm install
    ```
 ### 3. Prepare `accounts.json`
-Edit file `accounts.json` with your wallet seed key. (Ctrl + X, Y and Enter will do to save)
+- Edit file `accounts.json` with your wallet seed key. (Ctrl + X, Y and Enter will do to save)
    ```bash
    nano accounts.json
    ```
+Example:
+```json
+[
+  "abc def ghi jkl mno pqr stu vwx yz"
+]
+```
+
+- Edit file `privateKeys.json` with your wallet seed key. (Ctrl + X, Y and Enter will do to save)
+   ```bash
+   nano privateKeys.json
+   ```
+Example:
+```json
+[
+  "abfrsgrgdgfdgfgfgfsgfgfsgfgdsgsz"
+]
+```
 ### 4. Run the bot:
    ```bash
    npm start
